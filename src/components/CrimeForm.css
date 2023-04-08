@@ -1,0 +1,52 @@
+.crime-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+
+
+.crime-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.crime-form input,
+.crime-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+crime-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 150px;
+  
+}
+
+.crime-form button[type="submit"] {
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.crime-form button[type="submit"]:hover {
+  background-color: darkgreen;
+}
+

@@ -1,0 +1,29 @@
+.crime-report-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .crime-report-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .crime-report-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .crime-report-value {
+    margin: 0;
+  }
+  
+  .forward-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
